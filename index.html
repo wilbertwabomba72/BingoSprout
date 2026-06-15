@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="BingoSprout is a colorful number strategy puzzle for iPhone and iPad.">
+  <title>BingoSprout</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #203525;
+      --muted: #58705e;
+      --leaf: #2f7d45;
+      --sun: #f2bf3d;
+      --sky: #dff4ff;
+      --paper: #ffffff;
+      --line: #cfe2d2;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: linear-gradient(180deg, var(--sky) 0, #f7fbf5 42%, #eef7ec 100%);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+    }
+    header, main, footer {
+      width: min(920px, calc(100% - 40px));
+      margin: 0 auto;
+    }
+    header {
+      padding: 88px 0 52px;
+      border-bottom: 1px solid var(--line);
+    }
+    .brand {
+      margin: 0;
+      color: var(--leaf);
+      font-size: clamp(44px, 9vw, 84px);
+      line-height: 1;
+      letter-spacing: 0;
+    }
+    .tagline {
+      max-width: 680px;
+      margin: 20px 0 0;
+      font-size: 22px;
+      color: var(--muted);
+    }
+    main { padding: 48px 0 64px; }
+    section { margin-bottom: 44px; }
+    h2 {
+      margin: 0 0 14px;
+      color: #235f36;
+      font-size: 28px;
+      letter-spacing: 0;
+    }
+    p { margin: 0 0 16px; }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+      padding: 0;
+      list-style: none;
+    }
+    .features li {
+      min-height: 92px;
+      padding: 20px;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-left: 5px solid var(--sun);
+      border-radius: 8px;
+    }
+    a { color: var(--leaf); }
+    footer {
+      padding: 28px 0 44px;
+      color: var(--muted);
+      border-top: 1px solid var(--line);
+    }
+    @media (max-width: 640px) {
+      header { padding-top: 56px; }
+      .features { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 class="brand">BingoSprout</h1>
+    <p class="tagline">Plant numbers, shape the board, and turn exact sums into satisfying Bingo clears.</p>
+  </header>
+  <main>
+    <section>
+      <h2>A Fast Number Strategy Puzzle</h2>
+      <p>BingoSprout combines a growing number board with quick tactical choices. Choose from a 3x3 number pool, plant tiles into open cells, and swap adjacent numbers to match the target sums shown for each row and column.</p>
+      <p>Clear horizontal and vertical sequences, build combos, earn stars, and keep your board under control before time runs out.</p>
+    </section>
+    <section>
+      <h2>Game Features</h2>
+      <ul class="features">
+        <li><strong>Plant and plan.</strong><br>Place numbers where they can complete exact target sums.</li>
+        <li><strong>Swap with purpose.</strong><br>Move adjacent tiles only when the swap creates a Bingo.</li>
+        <li><strong>Clear every direction.</strong><br>Find horizontal, vertical, and cross-Bingo combinations.</li>
+        <li><strong>Grow through 50 levels.</strong><br>Chase better scores, more stars, and stronger combos.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Designed for iPhone and iPad</h2>
+      <p>BingoSprout supports iOS 13 and later. Core gameplay and local progress remain available offline.</p>
+    </section>
+    <section>
+      <h2>Support</h2>
+      <p>Questions or feedback: <a href="mailto:hengbozail@163.com">hengbozail@163.com</a></p>
+      <p><a href="privacy.html">Privacy Policy</a></p>
+    </section>
+  </main>
+  <footer>© 2026 hengbozail@163.com. BingoSprout.</footer>
+</body>
+</html>
